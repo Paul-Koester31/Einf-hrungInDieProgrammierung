@@ -7,4 +7,5 @@ public class BoolExpression {
         wert1 = true;
         System.out.println(!wert1 && (wert1 || wert2));
     }
+
 }
