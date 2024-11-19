@@ -27,9 +27,7 @@ public class Parasitenzahl {
             }
         }
     }
-
-    // Methode zur Berechnung einer Potenz: base^exponent
-
+    
 
     // Methode zur Überprüfung, ob eine Zahl eine Parasitenzahl ist
     public static boolean istParasitenzahl(long zahl) {
