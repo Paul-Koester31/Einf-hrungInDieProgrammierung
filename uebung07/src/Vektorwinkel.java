@@ -1,4 +1,4 @@
- public class Vektorwinkel {
+ public class   Vektorwinkel {
 
     public static void main(String[] args) {
         // Example vectors
