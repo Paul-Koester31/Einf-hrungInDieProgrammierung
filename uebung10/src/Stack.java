@@ -26,13 +26,16 @@ public class Stack {
     }
 
     public Object pop() {
-        return this.obj[top--];
+        Object temp = this.obj[top];
+        this.obj[top] = null;
+        top--;
+        return temp;
     }
 
     public boolean isEmpty() {
         for (int i = 0; i < this.obj.length; i++) {
-            if (this.obj[i] == null) return true;
+            if (this.obj[i] != null) return false;
         }
-        return false;
+        return true;
     }
 }
